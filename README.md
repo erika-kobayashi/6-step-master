@@ -1,1 +1,1 @@
-# 6-tep-masterrs
+# 6-step-master
