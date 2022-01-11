@@ -13,7 +13,7 @@
     --middle-width: 800px;
 }
 
-/* 基本フォントサイズ */
+/* 基本設定: フォントサイズ */
 @media (max-width: 599px) {
     :root {
         font-size: 14px;
@@ -543,15 +543,14 @@ header {
     }
 }
 
-    @media (min-width:768px) {
-        /* 大きい画面用の設定 */
-        .headC {
-            display: none;
-        }
+@media (min-width:768px) {
+    /* 大きい画面用の設定 */
+    .headC {
+        display: none;
+    }
 
-        .headB {
-            display: block !important;
-        }
+    .headB {
+        display: block !important;
     }
 }
 
