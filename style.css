@@ -917,4 +917,8 @@ header {
     .listC article {
         flex: 1 1 25%;
     }
+
+    .listC article:nth-child(4n+1) {
+        flex: 1 1 50%;
+    }
 }
