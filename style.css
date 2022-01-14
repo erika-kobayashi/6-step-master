@@ -922,3 +922,20 @@ header {
         flex: 1 1 50%;
     }
 }
+
+/* アレンジ: ヘッダーの色 */
+.head-color {
+    background-color: #5D9AB2;
+    background-color: var(--main-color);
+    color: #fff;
+    color: var(--text-bright-color);
+}
+
+.head-color .headA {
+    background-color: transparent;
+    color: inherit;
+}
+
+.head-color .headC {
+    color: inherit;
+}
